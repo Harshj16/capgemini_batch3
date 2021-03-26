@@ -1,0 +1,7 @@
+com.capgemini.ems.dao
+com.capgemini.ems.daoimpl
+com.capgemini.ems.main
+com.capgemini.ems.model
+com.capgemini.ems.service
+com.capgemini.ems.serviceimpl
+com.capgemini.ems.util
