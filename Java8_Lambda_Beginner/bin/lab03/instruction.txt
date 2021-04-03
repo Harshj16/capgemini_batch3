@@ -1,0 +1,5 @@
+## default method in interface. 
+
+Example :  look for iterable interface on jdk 8 api doc. forEach method is implemented as default method in interface. 
+
+Practice01 : Perform list iteration and understand the use of Consumer Interface, default forEach method in iterable and its usage. 

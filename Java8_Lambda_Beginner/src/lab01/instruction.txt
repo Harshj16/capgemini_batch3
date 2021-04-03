@@ -1,0 +1,19 @@
+# You need to create a program which will check the extension of the files available in specified folder, and display the name of the filtered files.
+
+Hint :  Explore FileFilter interface from jdk 8 api doc. This FileFilter is an interface taken from java.io package. 
+
+Follow below Approaches
+
+Approach1 : With Annonymous class approach
+Step1: Create Practice_app01 Class with main method.
+Step2: Create a Files folder in the root directory of your project name
+Step3: Create a Reference of FileFilter and create an object of the FileFilter which will force you to create Annonymous Class. 
+Step4: put a filtering logic in provided method.
+Step5: Using File IO display the filtered files from Files folder.
+
+
+Approach2 :With Lambda Function approach
+Step1: Create PRactice_app02 Class with main method
+Step2: Create a Reference of FileFilter.
+Step3: Reference of FileFilter should hold the lambda function that will hold the logic for FileFilter
+Step4: Useing File IO display the filtered files from Files folder

@@ -1,0 +1,7 @@
+## Here we will understand stream api now.
+
+In this session we will talk about. 
+- map/filter/reduce
+- what is stream?
+- pattern to build stream
+- operations on stream

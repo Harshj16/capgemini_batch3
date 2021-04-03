@@ -1,0 +1,14 @@
+#Practice 01
+# Run the Practice01 code and observe the output. 
+Note :  Runnable is an interface having only one method as run. 
+Task :  Convert the Runnable Code in lambda style so that when you run the code. you will be getting the same output. 
+
+Limitation : There should not be any change in the other code apart from Runnable code only.
+==========================================================================================================================
+#Practice 02
+# Open the Practice02 class.
+# Soft the list of Person using lambda, Collections.sort(list, Custom_Comparator) sorts the list as per the provided customized logic. 
+Same output should be displayed by lambda.
+======================================================================================================================================
+Additional Resource to learn lambda :
+https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html

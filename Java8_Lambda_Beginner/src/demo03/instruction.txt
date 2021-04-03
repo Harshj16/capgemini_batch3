@@ -1,0 +1,86 @@
+## Functional Interface
+
+### What is the type of lambda expression
+### Ans :  Functional interface
+
+### What is Functional Interface
+### Functional Interface is an interface with only one abstract function.
+### Example of functional interface
+***************************************************************************
+public interface Runnable {
+	public void run();
+}
+
+public interface Comparator<T> {
+	int compare(T t1, T t2);
+}
+
+public interface FileFilter {
+	boolean accept(File filePath);
+}
+***************************************************************************
+### Functional Interface
+look for java.util.function package in jdk8 api documentation
+Package java.util.function 
+Description
+Functional interfaces provide target types for lambda expressions and method references.
+- There are around 43 functional interfaces
+- Functional interface is annotated with @FunctionalInterface
+- There are 4 categories of functional interfaces.
+	1. Supplier
+	
+	@FunctionalInterface
+	public interface Supplier<T>{
+		T get();
+	}
+ 
+ 	2. Consumer
+ 	
+ 	@FunctionalInterface
+ 	public interface Consumer<T>{
+ 		void accept(T t);
+ 	}
+ 	
+ 	@FunctionalInterface
+ 	public interface BiConsumer<T,U>{
+ 		void accept(T t, U u);
+ 	}
+ 	
+ 	3. Predicate
+ 	
+ 	@FunctionalInterface
+ 	public interface Predicate<T>{
+ 		boolean test(T t);
+ 	}
+ 	
+ 	@FunctionalInterface
+ 	public interface BiPredicate<T,U>{
+ 		boolean test(T t, U u);
+ 	}
+ 	
+ 	4: Function
+ 	
+ 	@FunctionalInterface
+ 	public interface Function<T,R>{
+ 		R apply(T t);
+ 	}
+ 	
+ 	@FunctionalInterface
+ 	public interface UnaryOperator<T> extends Function<T, T>{ }
+ 	
+ 	@FunctionalInterface
+ 	public interface BiFunction<T,U,R>{
+ 		R apply(T t,U u);
+ 	}
+ 	
+ 	@FunctionalInterface
+ 	public interface BinaryOperator<T> extends Function<T, T,T>{ }
+ 	
+ ==============================================================================================================
+ Self Exploration :  React about Lambda from below reference and try to do some hands on. 
+ Note :  your hands on activities related to lambda must be in demo03 package only.
+ 
+ https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+ 	
+ 	
+ 	
