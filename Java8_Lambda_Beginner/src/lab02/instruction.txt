@@ -7,7 +7,7 @@ Limitation : There should not be any change in the other code apart from Runnabl
 ==========================================================================================================================
 #Practice 02
 # Open the Practice02 class.
-# Soft the list of Person using lambda, Collections.sort(list, Custom_Comparator) sorts the list as per the provided customized logic. 
+# Sort the list of Person using lambda, Collections.sort(list, Custom_Comparator) sorts the list as per the provided customized logic. 
 Same output should be displayed by lambda.
 ======================================================================================================================================
 Additional Resource to learn lambda :
