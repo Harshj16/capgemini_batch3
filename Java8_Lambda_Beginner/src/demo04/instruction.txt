@@ -1,7 +1,78 @@
 ## Here we will understand stream api now.
 
-In this session we will talk about. 
-- map/filter/reduce
-- what is stream?
-- pattern to build stream
-- operations on stream
+Required Setup:
+-------------------
+Activity# :
+1. You must have Gender Enum (Check with provided code) in common package
+2. You must have Person class (Check with provided code) in common package
+3. Start working with Practice01 class, and follow the instructions in the code. check handson package.
+
+Hands on :  
+-Get the name of all females in upper case who are in age more than 6
+-Imperative Way
+-Let's do it with stream - Using anonymous  way, known way or Imperative way, saying how to do.
+-Let's do it with stream - Using Declarative way- What to do, rather than how to do
+-Let's Do it with Stream - More Advanced way - Using Declarative way- What to do, rather than how to do
+
+
+-What is it?
+	-abstraction
+	-non mutating
+	-a view of how data is transformed
+	-a pipeline
+	
+-How do we use them?
+	- Raise from concrete to stream
+	- Ride the stream
+	- Compose operations
+	- Land back on a concrete
+
+- Streams employ function composition
+- stateless behavior
+- pure functions
+- specialized functions
+
+	- [filter] - print all males
+		- Create Practice02 by copy pasting practice01 and perform below operation. 
+		- print all males : Using Stream By Imperative way 
+		
+	- [map] - print all males, but name in upper case
+		- In Practice02 write stream code to print the person name in uppercase
+		- Here the important thing is, original person name should not be changed.This talks about non mutating property.
+		
+	- [reduce]
+		- general reduce - total age of every one
+		- Copy the Preactice02.java file  and create Practice03.java file
+		- Print the sum of all the ages : Using Stream By Imperative way
+		
+		- [specialized]
+			- There are certain specialized functions, that can ease out our task when used inside reduce.
+			
+		- [sum]
+			- We can also use Integer::sum , this will be used for addition.
+		
+		- [max] & [min]
+			- Show the oldest person
+			- Show the youngest person
+			- Copy the Practice3.java and paste the Practice4.java and make appropriate changes. 
+		
+		- [count]
+			- Show the adult person
+			- Copy the Practice4.java and paste and change the name as Practice5.java and make appropriate changes. 
+			
+- Characteristics : sized, ordered , distinct, sorted (these are the Characteristics of collection)
+	- depends on source
+	- depends on operation
+- raise, operate, land
+			
+		
+	
+Ref : 
+
+
+
+
+
+
+
+
