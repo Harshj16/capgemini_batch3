@@ -8,6 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>PhoneBook | Index</title>
+<link href="./static/css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 	<table border="1" width="80%" align="center">
@@ -24,15 +25,23 @@
 		<tr>
 			<td height="400px" valign="top">
 				<h3>Login Form</h3>
-				<form:form action="#" method="post">
+				<c:if test="${errMsg!=null}">
+					<p class="error">${errMsg}</p>
+				</c:if>
+				
+				<c:if test="${param.act eq 'lo'}">
+				<p class="success">Logout Successfully! Thanks for using phonebook app</p>
+				</c:if>
+				<s:url var="url_login" value="./loginHandle"/>
+				<form:form action="${url_login}" method="post" modelAttribute="command">
 					<table border="1">
 						<tr>
 							<td>Login Name</td>
-							<td><input type="text"></td>
+							<td><form:input path="loginName"/></td>
 						</tr>
 						<tr>
 							<td>Password</td>
-							<td><input type="password"></td>
+							<td><form:password path="pwd"/></td>
 						</tr>
 						<tr>
 						

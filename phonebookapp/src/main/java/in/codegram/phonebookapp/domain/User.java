@@ -20,45 +20,37 @@ public class User extends Person {
 	/**
 	 * role of the user : 1: Admin, 2: User
 	 */
-	private int role;
+	private Integer role;
 	/**
 	 * status of the user : 1 : Active, 2: Blocked
 	 */
-	private int status;
-
-
+	private Integer status;
 	public String getLoginName() {
 		return loginName;
 	}
-
 	public void setLoginName(String loginName) {
 		this.loginName = loginName;
 	}
-
-
-
 	public String getPwd() {
 		return pwd;
 	}
-
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
-
-	public int getRole() {
+	public Integer getRole() {
 		return role;
 	}
-
-	public void setRole(int role) {
+	public void setRole(Integer role) {
 		this.role = role;
 	}
-
-	public int getStatus() {
+	public Integer getStatus() {
 		return status;
 	}
-
-	public void setStatus(int status) {
+	public void setStatus(Integer status) {
 		this.status = status;
 	}
+
+
+	
 
 }
